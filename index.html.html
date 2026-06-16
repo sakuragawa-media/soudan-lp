@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>女性のための自分メディア相談</title>
+  <meta name="description" content="無料メール講座にご登録くださった方へ向けた限定のご案内。女性のための自分メディア相談。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fbf8f5;
+      --surface: #ffffff;
+      --surface-2: #f5efe9;
+      --text: #463b35;
+      --muted: #7a6a62;
+      --line: #e7ddd5;
+      --accent: #b77465;
+      --accent-dark: #9c5f52;
+      --accent-soft: #f4e4df;
+      --max: 920px;
+      --radius: 20px;
+      --shadow: 0 10px 30px rgba(80, 58, 50, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #fcfaf8 0%, #f8f2ed 100%);
+      line-height: 1.9;
+    }
+    .wrap { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
+    .hero {
+      padding: 48px 0 28px;
+    }
+    .limited {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      border: 1px solid #ebd1ca;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+    h1, h2, h3 { font-family: 'Noto Serif JP', serif; line-height: 1.5; margin: 0 0 16px; }
+    h1 { font-size: clamp(30px, 5vw, 46px); }
+    h2 { font-size: clamp(24px, 3.5vw, 32px); margin-bottom: 18px; }
+    h3 { font-size: 20px; margin-bottom: 10px; }
+    p { margin: 0 0 16px; }
+    .lead { font-size: 18px; color: var(--muted); }
+    .hero-card, .section-card, .profile-card, .voice-card, .cta-box {
+      background: rgba(255,255,255,0.86);
+      backdrop-filter: blur(6px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .hero-card { padding: 32px; }
+    .button {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 26px;
+      border-radius: 999px;
+      font-weight: 700;
+      margin-top: 12px;
+    }
+    .button:hover { background: var(--accent-dark); }
+    section { padding: 22px 0; }
+    .section-card { padding: 28px; }
+    ul { padding-left: 1.2em; margin: 0; }
+    li { margin-bottom: 10px; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+    .steps { display: grid; gap: 16px; }
+    .step {
+      background: var(--surface-2);
+      border-radius: 16px;
+      padding: 18px;
+      border: 1px solid var(--line);
+    }
+    .voice-list { display: grid; gap: 18px; }
+    .voice-card { padding: 22px; }
+    .voice-name { font-weight: 700; color: var(--accent-dark); margin-bottom: 8px; }
+    .profile-card {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 28px;
+      padding: 28px;
+      align-items: center;
+    }
+    .profile-card img {
+      width: 100%;
+      border-radius: 18px;
+      object-fit: cover;
+      box-shadow: var(--shadow);
+    }
+    .summary {
+      background: var(--surface-2);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px;
+    }
+    .cta-box { padding: 28px; text-align: center; }
+    .small { color: var(--muted); font-size: 14px; }
+    footer { padding: 12px 0 40px; color: var(--muted); font-size: 13px; text-align: center; }
+    @media (max-width: 760px) {
+      .hero { padding-top: 28px; }
+      .hero-card, .section-card, .profile-card, .voice-card, .cta-box { padding: 22px; }
+      .grid-2, .profile-card { grid-template-columns: 1fr; }
+      .profile-card img { max-width: 320px; }
+      .button { width: 100%; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="hero-card">
+        <div class="limited">無料メール講座ご登録者様への限定ご案内</div>
+        <p>こちらは、<strong>無料メール講座にご登録くださった方へ向けた限定のご案内</strong>です。<br>今回ご縁をいただいた方へ、先にお届けしています。</p>
+        <h1>女性のための<br>自分メディア相談</h1>
+        <p class="lead">あなたの強みや魅力を、理想のお客様に届く「自分メディア」に育てていきませんか。</p>
+        <p>ブログや発信を頑張っているのに、<br>「このままでいいのかな…」<br>「私らしさって、どう出していけばいいんだろう」<br>そんなふうに感じている女性のための個別相談です。</p>
+        <p>発信を始めたい女性や、今のブログをビジネスブログとして作り替えたい方、テコ入れしたい方に向けて、強み・魅力・経験・価値を整理しながら、自分らしく、理想のお客様に届く発信の軸を一緒に整えていきます。</p>
+        <a class="button" href="https://example.com" target="_blank" rel="noopener noreferrer">女性のための自分メディア相談に申し込む</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap grid-2">
+        <div class="section-card">
+          <h2>こんなお悩みはありませんか</h2>
+          <ul>
+            <li>起業・副業に向けて発信を始めたけれど、この方向で合っているのか不安。</li>
+            <li>ブログを書いているのに反応が少なく、だんだん更新が苦しくなってきた。</li>
+            <li>経験や資格を活かして、仕事につながる発信にしたい。</li>
+            <li>売り込まずに、「この人にお願いしたい」と自然に選ばれるようになりたい。</li>
+            <li>自分の強みや魅力をうまく言葉にできず、発信の軸がぼんやりしている気がする。</li>
+          </ul>
+          <p style="margin-top:16px;">ひとつでも当てはまる方は、まだ何もないのではなく、今ある魅力や価値が少し整理しきれていないだけかもしれません。</p>
+        </div>
+        <div class="section-card">
+          <h2>発信がうまくいかない理由</h2>
+          <p>発信が続かない。何を書けばいいか分からない。読まれても、仕事にはつながりにくい。</p>
+          <p>その理由は、書き方のテクニックだけではなく、強み・魅力・価値・コンセプト・自分軸が、まだうまくつながっていないことにあります。</p>
+          <p>でも、あなたの中にはすでに発信の材料があります。これまでの経験、資格、好きなこと、乗り越えてきたこと。それらは、あなたらしい発信や仕事につながる大切な資産です。</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap section-card">
+        <h2>このご相談で、一緒に整理していくこと</h2>
+        <div class="steps">
+          <div class="step">
+            <h3>1. 強み・魅力・価値の棚卸し</h3>
+            <p>あなたが当たり前にしてきたこと、経験してきたこと、得意なことの中から、発信に活かせる強みや魅力を整理していきます。</p>
+          </div>
+          <div class="step">
+            <h3>2. 発信の軸と全体像の整理</h3>
+            <p>誰に向けて、どんな価値を届けたいのか。ブログや発信全体をどう整えていくのか。自分メディアの軸と全体像を見えやすくしていきます。</p>
+          </div>
+          <div class="step">
+            <h3>3. 伝わる見せ方の方向性確認</h3>
+            <p>言葉のトーン、プロフィールの見せ方、写真や世界観の整え方など、あなたらしさが自然に伝わる方向性を一緒に確認します。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap section-card">
+        <h2>ご相談のあとに見えやすくなること</h2>
+        <ul>
+          <li>自分の強みや魅力を、前よりも言葉にしやすくなる。</li>
+          <li>誰に向けて発信するのかがはっきりし、テーマ選びに迷いにくくなる。</li>
+          <li>無理に売り込まなくても、あなたらしさや世界観が伝わる発信の土台ができていく。</li>
+          <li>ブログやプロフィール、サービス紹介に何を反映したらよいかが見えやすくなる。</li>
+        </ul>
+        <p style="margin-top:16px;">すぐに劇的な変化を約束するものではありませんが、「何から始めればいいのか」「自分は何を打ち出せばいいのか」が分かるだけでも、次の一歩はずっと進みやすくなります。</p>
+        <a class="button" href="https://example.com" target="_blank" rel="noopener noreferrer">女性のための自分メディア相談に申し込む</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-card">
+          <h2>お客様の声</h2>
+          <p class="small">これまでの講座や発信サポートを受けてくださった方のご感想です。</p>
+          <div class="voice-list">
+            <div class="voice-card">
+              <div class="voice-name">I様</div>
+              <p>自分に合わせたアドバイスを、ここまで具体的にしてくれる人はなかなかいないと感じました。方向性や見せ方を一緒に整理してもらえて、とても心強かったです。</p>
+            </div>
+            <div class="voice-card">
+              <div class="voice-name">O様</div>
+              <p>講座や相談を通して、一人ひとりに合わせて考えることの大切さを実感しました。その人に合う形を一緒に考えてくれるところが印象的でした。</p>
+            </div>
+            <div class="voice-card">
+              <div class="voice-name">M様</div>
+              <p>これまでの経験をあらためて整理できたことで、自分への自信につながりました。第三者の視点で、自分の強みや魅力を見てもらえたことが大きかったです。今後はブログのプロフィールやホームページにも活かしていきたいと思っています。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="profile-card">
+          <img src="./assets/profile.jpg" alt="桜川めぐみさんのプロフィール写真" width="768" height="768" loading="lazy">
+          <div>
+            <h2>プロフィール</h2>
+            <p><strong>桜川めぐみ</strong><br>ミニメディア編集記者＆ライティングフォト講師。</p>
+            <p>4年制大学経営学部卒業後、流通業界を経て、新聞社系列の編集取材記者として12年間勤務。約3,500件超の取材を通して、人の思いやストーリーを言葉にする仕事に携わってきました。</p>
+            <p>記事や広告制作の経験を活かし、現在はブログやメルマガなどの発信に、ライティング×写真の視点を取り入れながら、発信を始めたい女性から、今のブログをビジネスブログとして作り替えたい方・テコ入れしたい方まで、自分らしい自分メディアづくりをサポートしています。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap grid-2">
+        <div class="section-card">
+          <h2>ご相談概要</h2>
+          <div class="summary">
+            <p><strong>サービス名</strong><br>女性のための自分メディア相談（女性限定）</p>
+            <p><strong>内容</strong><br>Zoomで行う、1対1のオンライン個別相談です。あなたの強み・魅力・経験を整理しながら、発信の軸と自分メディアの全体像を一緒に見ていきます。</p>
+            <p><strong>時間</strong><br>90分</p>
+            <p><strong>料金</strong><br>通常価格 19,800円<br>無料メール講座ご登録者様限定価格 3,300円（税込）</p>
+            <p><strong>日程</strong><br>お申し込み後、メールにてご相談のうえ決定いたします。</p>
+            <p><strong>お支払い</strong><br>事前のお振込みをお願いいたします。</p>
+          </div>
+        </div>
+        <div class="cta-box">
+          <h2>お申し込み案内</h2>
+          <p>「私にもできるかな」<br>「今の状態でも相談していいのかな」<br>そんなふうに思われた方こそ、安心してお話しにいらしてください。</p>
+          <p>無理な売り込みはいたしませんので、まずは今のお悩みや状況を、そのまま聞かせてくださいね。</p>
+          <a class="button" href="https://example.com" target="_blank" rel="noopener noreferrer">女性のための自分メディア相談に申し込む</a>
+          <p class="small" style="margin-top:14px;">※ 申込みページURLが決まり次第、このボタンのリンク先を差し替えてご利用ください。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 女性のための自分メディア相談
+  </footer>
+</body>
+</html>

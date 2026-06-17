@@ -93,12 +93,14 @@
       align-items: center;
     }
     .profile-card img {
-      width: 100%;
-      border-radius: 18px;
-      object-fit: cover;
-      box-shadow: var(--shadow);
-    }
-    .summary {
+  width: 100%;
+  height: auto;
+  max-width: 180px;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+       .summary {
       background: var(--surface-2);
       border: 1px solid var(--line);
       border-radius: 16px;
@@ -111,7 +113,7 @@
       .hero { padding-top: 28px; }
       .hero-card, .section-card, .profile-card, .voice-card, .cta-box { padding: 22px; }
       .grid-2, .profile-card { grid-template-columns: 1fr; }
-      .profile-card img { max-width: 180px; margin: 0 auto; }
+      .profile-card img { max-width: 180px; margin: 0 auto; height: auto; }
       .button { width: 100%; text-align: center; }
     }
   </style>
